@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEZ</title>
+  <link rel="stylesheet" href="stylesMensual.css" /> <!-- Link to the external CSS file -->
+  <link rel="icon" href="https://lh3.googleusercontent.com/d/1j22f7OZFQTYlvGqlyX06JZMdffJQ60hZ">
+
+</head>
+<body>
+  <header>
+      <h1>Octubre del 2024</h1>
+      <nav>
+          <br>
+          <a href="../../index.html">Inicio</a>
+          <br>
+          <br>
+          <br>
+          <a href="2024-09.html"><-- Anterior</a>
+          <a href="../2024.html#navegar">Menu</a>
+          <a href="2024-11.html">Siguiente --></a>
+      </nav>
+  </header>
+
+  <h2>Working</h2>
+  <!-- Image box -->
+  <div class="media-container">
+    <img height="428" src="https://lh3.googleusercontent.com/d/1zFDYGtHLgTMFmSK_HjswqaoaG6IHhwk_" alt="working-01"/>
+    <div class="media-info">Imagen: Working </div>
+  </div>
+  
+  <div class="media-container">
+    <img height="428" src="https://lh3.googleusercontent.com/d/1gn1dtNk3UWfhbjnb582r-XbeFmcrcehN" alt="working-02"/>
+    <div class="media-info">Imagen: Working </div>
+  </div>
+
+  <!-- Modal para vista ampliada -->
+  <div id="imageModal" class="modal" style="display:none;">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage" src="" alt="Imagen ampliada" />
+    <div class="caption" id="caption"></div>
+    <div class="navigation">
+      <button id="prevBtn">Anterior</button>
+      <button id="nextBtn">Siguiente</button>
+    </div>
+  </div>
+
+  <script src="scriptMensual.js"></script>
+
+</body>
+</html>
+
